@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header .título{
+    color: #1be509;
+    font-family: 'Arial Black';
+    font-size: 30px;
+    background-color: #141414;
+    text-align: center; 
+    margin-top: 10px;
+     
+}
+body{
+    background-color: #000000;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial; 
+    font-size: 15px;
+    justify-content: space-between;
+    margin-left: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+
+header nav a:hover{
+    color: #1be509;
+}
+main a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Arial', Times;
+    font-size: 20px;
+}
+
+main a:hover{
+    color: #1be509;
+}
+
+main p{
+    color: #fff;
+    display: flex;    
+    font-family: 'Arial';
+    font-size: 20px;
+    margin-left: 200px; 
+    
+}
+
+.Zakk{
+    background: url('/img/zakk.jpg ');
+    height: 200px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px;
+}
+
+.Portnoy{
+    background: url('/img/portnoy.jpg ');
+    height: 200px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px;
+}
+
+.Lima{
+    background: url('/img/Lima.jpg ');
+    height: 200px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px;
+}
+
+.Flea{
+    background: url('/img/flea.jpg ');
+    height: 200px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px;  
+}
+
+.Jordan{
+    background: url('/img/jordan.jpg ');
+    height: 200px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px;
+}
+
+.Adelle{
+    background: url('/img/adelle.jpg ');
+    height: 200px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px; 
+}
+
+.Xande{
+    background: url('/img/xande.jpg ');
+    height: 200px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px; 
+}
