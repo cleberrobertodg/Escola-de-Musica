@@ -47,9 +47,9 @@ header nav a:hover{
 
 /*filme principal*/
 
-.filme-principal{
+.materia-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/Guitar\ Wallpaper.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('img/Guitar.jpg');
     height: 100%;
     background-size: cover;
     display: flex;
@@ -58,12 +58,12 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.materia-principal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
 }
 
-.filme-principal .titulo{
+.materia-principal .titulo{
     font-size: 40px;
     margin-top: 30%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
