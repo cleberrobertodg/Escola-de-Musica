@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matrícula</title>
     <link rel="stylesheet" href="matricula.css">
-    <script src="ScriptMatricula.js"></script>
-   
 </head>
 <body>
     <header>
@@ -20,33 +18,53 @@
         </nav>
     </header>
     <main>
+        <!-- Adiciona oc campos de escrita com ID -->
         <label for="nome">
             Nome: 
         <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" autocomplete="off">
     </label>
 
-    <label for="nome">
+    <label for="email">
         Email: 
     <input type="email" name="email" id="email" placeholder="Digite o seu email" autocomplete="off">
 </label>
 
 <label for="tel">
     Telefone:  
-    <input type="tel" name="tel id="idade placeholder="Digite seu telefone ">
+    <input type="tel" name="tel" id="tel" placeholder="Digite seu telefone">
 </label>
 
 <label for="nascimento">
     Nascimento: 
 <input type="date" name="nascimento" id="nascimento" placeholder="Digite o seu nascimento">
 </label>
-<label>Curso: <select name="matérias" id="matérias"></label>
-    <option value="guitarra">Guitarra</option>
-    <option value="violão">Violão</option>
-    <option value="cavaco">Cavaco</option>
-    <option value="piano">Piano</option>
+<!-- Adiciona uma dropbar para seleção do curso informado -->
+<label>Curso: <select name="materias" id="materias"></label>
     <option value="canto">Canto</option>
+    <option value="piano">Piano</option>
+    <option value="guitarra">Guitarra</option>
+    <option value="bateria">Bateria</option>
+    <option value="violao">Violão</option>
+    <option value="cavaco">Cavaco</option>
+    
 </select>
 
+<!-- Adiciona um botão de envio com um ID -->
+        <button id="enviar">Enviar</button>
     </main>  
+    <!-- Armazena os valores dos campos em variáveis, e os exibe em forma de alert, ao clicar em enviar -->
+    <script>
+        alert("Matrículas abertas!");
+        var enviarBotao = document.getElementById("enviar");
+        enviarBotao.addEventListener("click", function() {
+            var nome = document.getElementById("nome").value;
+            var email = document.getElementById("email").value;
+            var tel = document.getElementById("tel").value;
+            var nascimento = document.getElementById("nascimento").value;
+            var materias = document.getElementById("materias").value;
+            alert("Confira seus dados " + "\nNome: " + nome + "\nEmail: " + email + "\nTelefone: " + tel + "\nData de Nascimento: " + nascimento + "\nCurso: " + materias);
+            alert("Matrícula confirmada!");
+        });
+    </script>
 </body>
 </html>
